@@ -268,59 +268,54 @@ npm run dev                   # Vite 개발 서버 (http://localhost:5173)
       <tr>
         <td align="center"><img src="https://github.com/SeungJo-02.png" width="80"></td>
         <td align="center"><b>김승조</b></td>
-        <td align="center">Full Stack · DevOps</td>
+        <td align="center">Mentor · Full Stack · DevOps</td>
         <td align="center"><a href="https://github.com/SeungJo-02"><img src="https://img.shields.io/badge/SeungJo--02-181717?style=social&logo=github"/></a></td>
       </tr>
       <tr>
-        <td align="center"><img src="https://github.com/LDM-0305.png" width="80"></td>
-        <td align="center"><b>LEEDONGMIN</b></td>
-        <td align="center"><!-- 역할 --></td>
-        <td align="center"><a href="https://github.com/LDM-0305"><img src="https://img.shields.io/badge/LDM--0305-181717?style=social&logo=github"/></a></td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://github.com/a01088802343-prog.png" width="80"></td>
-        <td align="center"><b>sanho</b></td>
-        <td align="center"><!-- 역할 --></td>
-        <td align="center"><a href="https://github.com/a01088802343-prog"><img src="https://img.shields.io/badge/a01088802343--prog-181717?style=social&logo=github"/></a></td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://github.com/BeakAh-jeong.png" width="80"></td>
-        <td align="center"><b>BeakAh-jeong</b></td>
-        <td align="center"><!-- 역할 --></td>
-        <td align="center"><a href="https://github.com/BeakAh-jeong"><img src="https://img.shields.io/badge/BeakAh--jeong-181717?style=social&logo=github"/></a></td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://github.com/wooyedamA.png" width="80"></td>
-        <td align="center"><b>wooyedamA</b></td>
-        <td align="center"><!-- 역할 --></td>
-        <td align="center"><a href="https://github.com/wooyedamA"><img src="https://img.shields.io/badge/wooyedamA-181717?style=social&logo=github"/></a></td>
-      </tr>
-      <tr>
         <td align="center"><img src="https://github.com/uuuubin.png" width="80"></td>
-        <td align="center"><b>uuuubin</b></td>
-        <td align="center"><!-- 역할 --></td>
+        <td align="center"><b>유빈</b></td>
+        <td align="center">Leader · Planning · Survey · Presentation</td>
         <td align="center"><a href="https://github.com/uuuubin"><img src="https://img.shields.io/badge/uuuubin-181717?style=social&logo=github"/></a></td>
       </tr>
       <tr>
-        <td align="center"><img src="https://github.com/20101011yuna-crypto.png" width="80"></td>
-        <td align="center"><b>20101011yuna-crypto</b></td>
-        <td align="center"><!-- 역할 --></td>
-        <td align="center"><a href="https://github.com/20101011yuna-crypto"><img src="https://img.shields.io/badge/20101011yuna--crypto-181717?style=social&logo=github"/></a></td>
+        <td align="center"><img src="https://github.com/wooyedamA.png" width="80"></td>
+        <td align="center"><b>우예담</b></td>
+        <td align="center">Design · Survey · Presentation</td>
+        <td align="center"><a href="https://github.com/wooyedamA"><img src="https://img.shields.io/badge/wooyedamA-181717?style=social&logo=github"/></a></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="https://github.com/BeakAh-jeong.png" width="80"></td>
+        <td align="center"><b>백아정</b></td>
+        <td align="center">Planning · Survey · Presentation</td>
+        <td align="center"><a href="https://github.com/BeakAh-jeong"><img src="https://img.shields.io/badge/BeakAh--jeong-181717?style=social&logo=github"/></a></td>
       </tr>
       <tr>
         <td align="center"><img src="https://github.com/billy0224002010-glitch.png" width="80"></td>
-        <td align="center"><b>billy0224002010-glitch</b></td>
-        <td align="center"><!-- 역할 --></td>
+        <td align="center"><b>최연호</b></td>
+        <td align="center">Design · QA Automation</td>
         <td align="center"><a href="https://github.com/billy0224002010-glitch"><img src="https://img.shields.io/badge/billy0224002010--glitch-181717?style=social&logo=github"/></a></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="https://github.com/a01088802343-prog.png" width="80"></td>
+        <td align="center"><b>최산호</b></td>
+        <td align="center">Design · QA Automation</td>
+        <td align="center"><a href="https://github.com/a01088802343-prog"><img src="https://img.shields.io/badge/a01088802343--prog-181717?style=social&logo=github"/></a></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="https://github.com/LDM-0305.png" width="80"></td>
+        <td align="center"><b>이동민</b></td>
+        <td align="center">Planning · Survey</td>
+        <td align="center"><a href="https://github.com/LDM-0305"><img src="https://img.shields.io/badge/LDM--0305-181717?style=social&logo=github"/></a></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="https://github.com/20101011yuna-crypto.png" width="80"></td>
+        <td align="center"><b>공윤아</b></td>
+        <td align="center">Planning · Survey</td>
+        <td align="center"><a href="https://github.com/20101011yuna-crypto"><img src="https://img.shields.io/badge/20101011yuna--crypto-181717?style=social&logo=github"/></a></td>
       </tr>
     </tbody>
   </table>
 </div>
-
-<!-- 이름은 GitHub 아이디/표시명 기준입니다. 실명으로 바꾸고, 각자 Position(역할)을 채워주세요. -->
-<!-- 실명 확인된 멤버: SeungJo-02 = 김승조 -->
-<!-- LDM-0305 = LEEDONGMIN · a01088802343-prog = sanho (GitHub 표시명) -->
-<!-- 나머지(BeakAh-jeong · wooyedamA · uuuubin · 20101011yuna-crypto · billy0224002010-glitch)는 실명 확인 필요 -->
 
 <br />
 <br />
