@@ -61,37 +61,49 @@
 #### 🎡 룰렛
 > 원판을 돌려 당첨 하나를 뽑아요.
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/roulette.gif" width="300" alt="룰렛 데모" />
+</div>
 
 
 #### 🗳️ 투표하기
 > 다 같이 투표해 최다 득표를 정해요. (실시간 집계 · 공동 1위 지원)
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/vote.gif" width="300" alt="투표하기 데모" />
+</div>
 
 
 #### 🎫 제비뽑기
 > 제비를 뽑아 꽝을 피해요. (제비 수 · 꽝 개수 설정)
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/draw.gif" width="300" alt="제비뽑기 데모" />
+</div>
 
 
 #### 🔢 순서 정하기
 > 항목을 무작위 순서로 줄 세워요.
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/order.gif" width="300" alt="순서 정하기 데모" />
+</div>
 
 
 #### 🪜 사다리타기
 > 사다리를 타고 내려가 짝을 정해요.
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/ladder.gif" width="300" alt="사다리타기 데모" />
+</div>
 
 
 #### 🎈 풍선 터뜨리기
 > 돌아가며 펌프하다 터뜨린 사람이 걸려요. (턴제)
 
-<!-- 데모 영상 -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/balloon.gif" width="300" alt="풍선 터뜨리기 데모" />
+</div>
 
 ### 임베드 (Zoom · Google Meet · Chrome)
 > 회의 중에 앱을 바로 열어 게임을 시작하고, 참가자는 폰으로 입장합니다.
