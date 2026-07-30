@@ -19,7 +19,6 @@
 * [API](#api)
 * [System Architecture](#system-architecture)
 * [Tech Stack](#tech-stack)
-* [Monitoring](#monitoring)
 * [How to start](#how-to-start)
 * [Directory Structure](#directory-structure)
 * [Team Members](#team-members)
@@ -64,7 +63,7 @@
 # 📁 API
 > REST(방 생성·조회) + **Socket.io(`/rooms` 네임스페이스) 이벤트 기반 실시간 API** 로 구성됩니다.
 
-- **REST**: `POST /api/rooms`(방 생성) · `GET /api/rooms/:roomId`(방 조회) · `GET /metrics`(Prometheus)
+- **REST**: `POST /api/rooms`(방 생성) · `GET /api/rooms/:roomId`(방 조회)
 - **Socket.io (실시간)**
   - 받는 이벤트: `room:join` · `game:begin` · `vote:cast` · `draw:pick` · `balloon:pump` …
   - 보내는 이벤트: `room:state` · `participant:joined` / `participant:left` · `vote:updated` · `game:begin` · `game:result` · `game:aborted` …
@@ -142,15 +141,6 @@
       </td>
     </tr>
     <tr>
-      <td align="center"><b>Monitoring</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white">
-        <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-        <img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-        <img src="https://img.shields.io/badge/Promtail-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-      </td>
-    </tr>
-    <tr>
       <td align="center"><b>ETC</b></td>
       <td>
         <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
@@ -160,18 +150,6 @@
     </tr>
   </table>
 </div>
-
-<br>
-
-<a id="monitoring"></a>
-# 📈 Monitoring
-> Prometheus 로 메트릭을 수집하고 Grafana 대시보드로 시각화하며, Loki + Promtail 로 로그를 집계합니다.
-
-- **Prometheus** — 앱 `/metrics` 스크레이프 (요청·소켓·게임 지표)
-- **Grafana** — 대시보드 시각화
-- **Loki + Promtail** — 컨테이너 로그 수집·조회
-<!-- 모니터링 대시보드 이미지 첨부 -->
-<!-- <img src="이미지_링크" width="100%" alt="Monitoring" /> -->
 
 <br>
 
@@ -243,12 +221,10 @@ npm run dev                   # Vite 개발 서버 (http://localhost:5173)
  ┃ ┣ 📂 room          # 방 생성/입장/퇴장 (RoomGateway · RoomService · controller)
  ┃ ┣ 📂 game          # 6종 게임 로직 (GameGateway · GameService · engines: roulette·ladder·random)
  ┃ ┗ 📂 stats         # 누적 통계 (Prisma · Postgres)
- ┣ 📂 observability   # Prometheus 메트릭 (metrics controller/service)
  ┣ 📜 main.ts · app.module.ts · configure-app.ts
 
 📂 (root)
  ┣ 📂 prisma          # schema.prisma · migrations
- ┣ 📂 grafana · loki · prometheus · promtail   # 모니터링 스택 설정
  ┣ 📜 Caddyfile       # 리버스 프록시(HTTPS/wss 자동)
  ┗ 📜 docker-compose.yml · docker-compose.prod.yml · Dockerfile
 </pre>
