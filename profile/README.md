@@ -107,7 +107,16 @@
 
 ### 임베드 (Zoom · Google Meet · Chrome)
 > 회의 중에 앱을 바로 열어 게임을 시작하고, 참가자는 폰으로 입장합니다.
-<!-- <img src="이미지_링크" width="100%" alt="Embed" /> -->
+
+**Zoom**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-zoom.gif" width="600" alt="Zoom 임베드 데모" />
+</div>
+
+**Google Meet + Chrome 확장**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-meet-chrome.gif" width="600" alt="Google Meet + Chrome 임베드 데모" />
+</div>
 
 <br>
 
