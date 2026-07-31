@@ -135,8 +135,10 @@
 <a id="system-architecture"></a>
 # 🏛️ System Architecture
 > Frontend(Vercel) ⇄ HTTPS/WSS ⇄ Caddy(리버스 프록시·Let's Encrypt) → NestJS(EC2·Docker) ⇄ Redis(실시간 상태) · PostgreSQL(누적 통계)
-<!-- 시스템 아키텍처 다이어그램 첨부 -->
-<!-- <img width="100%" alt="System Architecture" src="이미지_링크" /> -->
+
+<div align="center">
+  <img width="100%" alt="System Architecture" src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/system-architecture.png" />
+</div>
 
 - **실시간 상태는 전부 Redis** (방·참가자·게임 상태) — 인메모리 + TTL 자동 소멸
 - **누적 통계만 PostgreSQL(Prisma)** — 영구 보관
