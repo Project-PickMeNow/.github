@@ -1,4 +1,5 @@
 <div align="center">
+  <h3>🏆 2026 고교-대학 연계 글로벌 진로역량 성장 프로그램 AI 디지털 진로-부트캠프 Impact Award 수상 🏆</h3>
   <h1>🎯 Pick Me Now 🎯</h1>
   <!-- 로고 이미지 첨부 (GitHub 이슈/PR에 드래그해서 나온 링크 사용) -->
   <!-- <img width="512" height="512" alt="Pick Me Now Logo" src="이미지_링크" /> -->
