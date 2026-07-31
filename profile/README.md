@@ -53,6 +53,19 @@
 > 방장이 게임을 고르면 참가자 전원 화면이 동시에 바뀌고, 결과가 즉시 공유됩니다.
 <!-- 데모 영상 링크 첨부 -->
 
+### 임베드 (Zoom · Google Meet · Chrome)
+> 회의 중에 앱을 바로 열어 게임을 시작하고, 참가자는 폰으로 입장합니다.
+
+**Zoom**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-zoom.gif" width="600" alt="Zoom 임베드 데모" />
+</div>
+
+**Google Meet + Chrome 확장**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-meet-chrome.gif" width="600" alt="Google Meet + Chrome 임베드 데모" />
+</div>
+
 ### 🎮 게임 6종
 > 상황에 맞게 6가지 방식으로, 다 같이 실시간으로 정할 수 있어요. (아래는 각 게임 데모 GIF)
 >
@@ -103,19 +116,6 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/balloon.gif" width="300" alt="풍선 터뜨리기 데모" />
-</div>
-
-### 임베드 (Zoom · Google Meet · Chrome)
-> 회의 중에 앱을 바로 열어 게임을 시작하고, 참가자는 폰으로 입장합니다.
-
-**Zoom**
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-zoom.gif" width="600" alt="Zoom 임베드 데모" />
-</div>
-
-**Google Meet + Chrome 확장**
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/demos/embed-meet-chrome.gif" width="600" alt="Google Meet + Chrome 임베드 데모" />
 </div>
 
 <br>
