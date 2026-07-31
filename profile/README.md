@@ -68,9 +68,7 @@
 </div>
 
 ### 🎮 게임 6종
-> 상황에 맞게 6가지 방식으로, 다 같이 실시간으로 정할 수 있어요. (아래는 각 게임 데모 GIF)
->
-> <sub>💡 소리 포함 실제 영상으로 바꾸려면, GitHub 편집창에서 해당 GIF를 지우고 그 자리에 영상 파일(.mov/.mp4)을 드래그해 올리면 영상 플레이어로 재생됩니다.</sub>
+> 상황에 맞게 6가지 방식으로, 다 같이 실시간으로 정할 수 있어요.
 
 #### 🎡 룰렛
 > 원판을 돌려 당첨 하나를 뽑아요.
@@ -126,6 +124,14 @@
 > REST(방 생성·조회) + **Socket.io(`/rooms` 네임스페이스) 이벤트 기반 실시간 API** 로 구성됩니다.
 
 - **REST**: `POST /api/rooms`(방 생성) · `GET /api/rooms/:roomId`(방 조회)
+
+<div align="center">
+  <a href="https://api.pickmenow.co.kr/api/docs">
+    <img width="100%" alt="Swagger API 문서" src="https://raw.githubusercontent.com/Project-PickMeNow/.github/main/profile/swagger-api.png" />
+  </a>
+  <sub>▶ <a href="https://api.pickmenow.co.kr/api/docs">Swagger API 문서 (api.pickmenow.co.kr/api/docs)</a></sub>
+</div>
+
 - **Socket.io (실시간)**
   - 받는 이벤트: `room:join` · `game:begin` · `vote:cast` · `draw:pick` · `balloon:pump` …
   - 보내는 이벤트: `room:state` · `participant:joined` / `participant:left` · `vote:updated` · `game:begin` · `game:result` · `game:aborted` …
